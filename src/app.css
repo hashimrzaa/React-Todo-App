@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    background-color: aliceblue;
+}
+
+div {
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 3rem;
+    color: rgb(116, 116, 197);
+}
+
+input {
+    padding: 5px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid rgb(116, 116, 197);
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+
+form button {
+    border: 0;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 1rem;
+    background-color: rgb(116, 116, 197);
+    color: white;
+}
+
+form button:hover {
+    background-color: rgb(101, 101, 172);
+}
+
+form button:active {
+    background-color: rgb(116, 116, 197);
+}
+
+input::placeholder {
+    color: rgb(116, 116, 197);
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    background-color: rgb(205, 205, 228);
+    list-style: none;
+    border-radius: 2px;
+    margin-bottom: 20px;
+    width: 250px;
+    height: auto;
+}
+
+li button {
+    border: 0;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 1rem;
+    background-color: rgb(116, 116, 197);
+    color: white;
+    margin-left: 5px;
+
+}
+
+li button:hover {
+    background-color: rgb(101, 101, 172);
+}
+
+li button:active {
+    background-color: rgb(116, 116, 197);
+}
